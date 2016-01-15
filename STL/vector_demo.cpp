@@ -42,6 +42,10 @@ int main(){
     for(vector<int>::iterator it=v1.begin(); it!=v1.end(); it++)
         cout << *it << " ";
     cout << endl;
+    // iterate by reverse order
+    for(vector<int>::reverse_iterator it=v1.rbegin(); it!=v1.rend(); it++)
+        cout << *it << " ";
+    cout << endl;
     cout << endl;
     
     // 4. simple sort/copy/reverse example
