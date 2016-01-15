@@ -1,0 +1,6 @@
+/STL/*
+!STL/*.cpp 
+/BGL/*
+!BGL/*.cpp 
+!BGL/*.h 
+!*.md 
